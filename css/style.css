@@ -187,12 +187,57 @@ section.bg-gray {
   width: 70%;
 }
 
+
+.col-25 {
+  width: 25%;
+}
+
 .col-30 {
   width: 30%;
 }
 
-.col-25 {
-  width: 25%;
+.col-30 > img {
+  width: 20px;
+}
+
+.col-30 > h2 {
+  font-size: 30px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #1e90ff;
+}
+
+footer {
+  color: white;
+}
+
+.fa-brands {
+  margin-right: 15px;
+}
+
+.fa-twitter {
+  margin-top: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.color-blu {
+  color: #1e90ff;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.last-buttom {
+  background-color: #1e90ff;
+  color: white;
+  padding: 8px;
+  border-radius: 15px;
 }
 
 /* ! DEBUG */
@@ -215,10 +260,7 @@ section.bg-gray {
   min-height: 50px;
 }
 
-/* .debug .bg-blue {
-  background-color: var(--blue);
-  /* min-height: 50px; */
-} */
+⁄
 
 .debug .bg-fuchsia {
   background-color: var(--fuchsia);
