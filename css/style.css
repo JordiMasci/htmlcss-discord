@@ -55,6 +55,13 @@
 
 header {
   padding: 1.5rem 0;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 /* # JUMBOTRON */
@@ -65,12 +72,44 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('../css/img/jumbo.png');
+  background-size: cover;
+  font-style: italic;
 }
 
 .jumbotron > .container {
   width: 50%;
   min-height: 250px;
+  text-align: center;
+  color: white;
 }
+
+.jumbotron-interno > h1 {
+  margin-bottom: 50px;
+  margin-top: -20px;
+}
+
+.jumbotron-interno > p {
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+.button-white {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.button-black {
+  background-color: #000000;
+  color: white;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+
+
 
 /* # SECTIONS */
 
@@ -127,13 +166,13 @@ section.bg-gray {
 
 /* ! DEBUG */
 
-.debug .bordered {
+/* .debug .bordered {
   border: 2px dashed var(--black);
 }
 
 .debug .bordered-white {
   border: 2px dashed var(--white);
-}
+} */
 
 .debug .bg-cyan {
   background-color: var(--cyan);
@@ -145,10 +184,10 @@ section.bg-gray {
   min-height: 50px;
 }
 
-.debug .bg-blue {
+/* .debug .bg-blue {
   background-color: var(--blue);
   /* min-height: 50px; */
-}
+} */
 
 .debug .bg-fuchsia {
   background-color: var(--fuchsia);
